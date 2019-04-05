@@ -29,3 +29,7 @@ df_death
 df = df_death.copy()
 
 # ## Assess
+
+
+# In[6]:
+df_death.info()
