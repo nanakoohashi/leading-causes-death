@@ -27,3 +27,5 @@ df_death
 # In[4]:
 # Make a copy of df
 df = df_death.copy()
+
+# ## Assess
