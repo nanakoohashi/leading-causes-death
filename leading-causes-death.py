@@ -37,3 +37,7 @@ df_death.info()
 
 # In[7]:
 df_death.Flag.unique()
+
+
+# In[8]:
+df_death.query('Flag == "1"')
