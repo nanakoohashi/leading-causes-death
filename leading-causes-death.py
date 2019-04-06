@@ -45,3 +45,7 @@ df_death.query('Flag == "1"')
 
 # In[9]:
 df_death.describe()
+
+
+# In[10]:
+df_death.sample()
