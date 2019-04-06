@@ -33,3 +33,7 @@ df = df_death.copy()
 
 # In[6]:
 df_death.info()
+
+
+# In[7]:
+df_death.Flag.unique()
