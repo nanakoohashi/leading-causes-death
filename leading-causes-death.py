@@ -50,6 +50,10 @@ df_death.rename(columns=lambda x: x.strip().lower().replace(" ", "_"), inplace=T
 
 
 # In[8]:
+df_death.rank_order.unique()
+
+
+# In[8]:
 df_death.Flag.unique()
 
 
