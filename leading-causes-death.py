@@ -45,16 +45,21 @@ df_death.info()
 
 
 # In[7]:
-df_death.Flag.unique()
+# Rename column to contain underscores instead of spaces to assess further possible issues
+df_death.rename(columns=lambda x: x.strip().lower().replace(" ", "_"), inplace=True)
 
 
 # In[8]:
-df_death.query('Flag == "1"')
+df_death.Flag.unique()
 
 
 # In[9]:
-df_death.describe()
+df_death.query('Flag == "1"')
 
 
 # In[10]:
+df_death.describe()
+
+
+# In[11]:
 df_death.sample()
