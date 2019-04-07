@@ -1,6 +1,15 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# # How has death changed in the United States from 1980 to 2009?
+# 
+# This is a dataset hosted by the Centers for Disease Control and Prevention. The organization has an open data platform found [here](https://data.cdc.gov/) and they update their information according the amount of data that is brought in. 
+# 
+# Selected Trend Table from Health, United States, 2011. Leading causes of death and numbers of deaths, by sex, race, and Hispanic origin: United States, 1980 and 2009.
+# 
+# #### Note:
+# 1. Rank order is based on the number of deaths.
+
 # ## Gather
 
 # In[1]:
