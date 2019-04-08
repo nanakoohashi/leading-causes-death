@@ -70,16 +70,20 @@ df_death.group.value_counts()
 
 
 # In[13]:
-df_death.flag.unique()
+df_death.year.unique()
 
 
 # In[14]:
-df_death.query('Flag == "1"')
+df_death.flag.unique()
 
 
 # In[15]:
-df_death.describe()
+df_death.query('Flag == "1"')
 
 
 # In[16]:
+df_death.describe()
+
+
+# In[17]:
 df_death.sample()
