@@ -65,18 +65,21 @@ df_death.rank_order.value_counts()
 df_death.group.unique()
 
 
-# In[12]:
-df_death.Flag.unique()
+# In[12]
+df_death.group.value_counts()
 
 
 # In[13]:
-df_death.query('Flag == "1"')
-
+df_death.flag.unique()
 
 
 # In[14]:
-df_death.describe()
+df_death.query('Flag == "1"')
 
 
 # In[15]:
+df_death.describe()
+
+
+# In[16]:
 df_death.sample()
