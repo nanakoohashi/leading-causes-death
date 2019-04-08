@@ -54,7 +54,11 @@ df_death.rank_order.unique()
 
 
 # In[9]:
-df_death.query('rank_order =="NaN"')
+df_death.query('rank_order == "NaN"')
+
+
+# In[10]:
+df_death.rank_order.value_counts()
 
 
 # In[10]:
@@ -63,6 +67,7 @@ df_death.Flag.unique()
 
 # In[11]:
 df_death.query('Flag == "1"')
+
 
 
 # In[12]:
