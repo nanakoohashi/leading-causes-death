@@ -74,6 +74,10 @@ df_death.year.unique()
 
 
 # In[14]:
+df_death.year.value_counts()
+
+
+# In[14]:
 df_death.flag.unique()
 
 
