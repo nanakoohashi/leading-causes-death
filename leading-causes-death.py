@@ -82,16 +82,20 @@ df_death.cause_of_death.value_counts()
 
 
 # In[16]:
-df_death.flag.unique()
+df_death.query('cause_of_death == "NaN"')
 
 
 # In[17]:
-df_death.query('Flag == "1"')
+df_death.flag.unique()
 
 
 # In[18]:
-df_death.describe()
+df_death.query('Flag == "1"')
 
 
 # In[19]:
+df_death.describe()
+
+
+# In[20]:
 df_death.sample()
