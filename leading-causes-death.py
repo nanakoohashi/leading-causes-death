@@ -112,3 +112,4 @@ df_death.sample()
 
 # ### Issues
 # 1. Column names contain spaces.
+# 2. 'Group' contains both sex and race information.
