@@ -116,3 +116,4 @@ df_death.sample()
 # 3. 'Flag' contains one entry that is flagged.
 # 4. 'Cause of Death' NaN entries cannot be queried.
 # 5. Missing entries in "Rank order", "Cause of Death", and "Deaths".
+# 6. Remove Cause of Death entries that equal "NaN".
