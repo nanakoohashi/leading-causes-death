@@ -115,3 +115,4 @@ df_death.sample()
 # 2. 'Group' contains both sex and race information.
 # 3. 'Flag' contains one entry that is flagged.
 # 4. 'Cause of Death' NaN entries cannot be queried.
+# 5. Missing entries in "Rank order", "Cause of Death", and "Deaths".
