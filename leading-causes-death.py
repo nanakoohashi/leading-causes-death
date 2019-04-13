@@ -122,5 +122,5 @@ df_death.sample()
 # ### Clean
 # ### 1. Column names contain spaces
 # #### Code
-
-
+# - This was completed while assessing data in order to properly assess the data.
+# - df_death columns were renamed to replace spaces with underscores in the Assess Data section using the following code: `df_death.rename(columns=lambda x: x.strip().lower().replace(" ", "_"), inplace=True)
